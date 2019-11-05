@@ -16,14 +16,15 @@ border: 3px solid red;
 
 .header-top-div {
     width: 99.7%;
-    height: 60px;
+    min-width: 800px;
+    height: 50px;
     display: inline-block;
     border: 2px solid ;
     background-color: rgb(36, 37, 35);
 }
 
 .header-top-ul {
-    line-height: 60px;
+    line-height: 50px;
     float: right;
     margin: 0px 40px 0px 0px;
     color: white;
@@ -38,7 +39,7 @@ border: 3px solid red;
     line-height: 20px;
     display: inline-block;
     margin: 0px 5px 0px 0px;
-    padding: 8px 0px;
+    padding: 5px 0px;
 }
 
 .call-me {
@@ -46,17 +47,18 @@ border: 3px solid red;
     font-size: 13px;
     vertical-align: 2px;
     color: black;
-    border-radius: 2px;
-    width: 150px;
+    border-radius: 3px;
+    width: 130px;
     padding: 20px;
 }
 
 .header-icon {
+    margin: 0px 0px 0px 30px;
     display: inline-block;
     list-style: none;
     color: white;
     float: left;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .header-icon li {
@@ -68,10 +70,38 @@ border: 3px solid red;
     margin: 0px 5px;
     display: inline-block;
     text-align: center;
-    font-size: 12px;
     font-weight: bold;
+    list-style: none;
 }
 
-ol>li tube {
-    font-size: 20px ;
+.tube {
+    font-size: 12px ;
+    font-weight: lighter;
+}
+
+.header-bottom-div {
+    border: 3px solid blue;
+    min-width: 800px;
+}
+
+.header-bottom-div ul {
+    border:  3px solid red;
+    display: inline-block;
+    float: right;
+    list-style: none ;
+    line-height: 80px;
+    max-height: 80px;
+    margin: 0px 30px 0px 0px;
+    min-width: 800px;
+}
+
+.header-bottom-div ul li {
+    margin: 0px 12px;
+    display: inline-block;
+}
+
+.logo-panacloud {
+    border: 2px solid green;
+    height: 80px;
+    margin: 0px 0px 0px 12px;
 }
