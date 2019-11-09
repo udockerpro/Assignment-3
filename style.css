@@ -14,9 +14,11 @@
     width: 99.5%;
     max-width: 1400px;
     margin: 0px ;
-
-
     border: 3px solid red;
+}
+
+.color-grey {
+    color: grey;
 }
 
 .header-top-div {
@@ -27,7 +29,6 @@
 }
 
 .header-top-ul {
-    border: 1px solid green;
     line-height: 50px;
     float: right ;
     margin: 0px 40px 0px 0px;
@@ -59,7 +60,7 @@
 
 .call-me {
     width: 130px;
-    background-color: rgb(143, 209, 56);
+    background-color: rgb(103, 143, 61);
     font-size: 13px;
     color: black;
     border-radius: 3px;
@@ -134,7 +135,7 @@
 
 .portfolio-div-1 {
     border: 1px solid;
-    background-color: rgb(143, 209, 56);
+    background-color: rgb(115, 143, 61);
     text-align: center;
 }
 
@@ -172,13 +173,14 @@
 */
 
 .portfolio-div-2 {
-    height: 400px;
+    border: 3px solid;
     text-align: center;
 }
 
 .color {
     color: black;
 }
+
 
 .text-rgb {
     color: rgb(102, 142, 25);
@@ -188,13 +190,85 @@
     font-size: 40px;
 }
 
+.portfolio-div-2-p2 {
+
+    color: grey;
+}
+
 .table-div2 {
-    padding: 5px;
-    margin: 50px;
+    align-content: center;
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px 0px;
 }
 
-.table-div2-images td {
+.table-div2 tr td {
 }
 
-.t-head-div2 {
+.bulb {
+    margin: 20px 0px;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+
+.div2-tr-last {
+    margin: 0px 0px;
+    font-size: 14px;
+    color: grey;
 } 
+
+/*
+    div-3 started from here
+*/
+
+.portfolio-div-3 {
+    background-image: url("images/ocean.jpg") ;
+    height: 540px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.portfolio-div-3-p1 {
+    border: 2px solid pink;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.portfolio-div-3-p2 {
+    margin: 30px 60px;
+    float: left;
+    font-size: 16px;
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+/* 
+    div 4 started from here
+*/
+
+.portfolio-div-4 {
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.portfolio-div-4-p1 {
+    border: 2px solid pink;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.portfolio-div-4-p2 {
+
+    color: grey;
+}
+
+
+
+
