@@ -12,10 +12,14 @@
 .div-page {
     display: inline-block;
     width: 99.5%;
-    max-width: 1400px;
-    margin: 0px ;
+    max-width: 1350px;
+    margin: 0px 5px;
     border: 3px solid red;
+    left: 50% ;
+    top: 50%;
 }
+
+
 
 .color-grey {
     color: grey;
@@ -134,33 +138,48 @@
 
 
 .portfolio-div-1 {
-    border: 1px solid;
     background-color: rgb(115, 143, 61);
     text-align: center;
+    display: ;
+    position: relative;
 }
 
-.portfolio-div-1 div {
-    margin: 150px 0px 0px 0px;
-    text-align: center;
-    background-color: rgb(162, 216, 76);
+.div-1-p1 {
+    position: absolute;
+    height: 60px;
+    width: 25%;
+    display: inline-block ;
+    background-color: rgb(102, 142, 25);
+    color: rgba(255, 255, 255, 0);
+    left: 0%;
 }
 
-.portfolio-div-1-p1 {
-    background-color: ;
+.div-1-p2 {
+    line-height: 65px;
     color: white;    
     display: inline-block;
     padding: 0px 10px;
     text-align: center;
-    font-size: 60px;
+    font-size: 63px;
     font-weight: bolder;
 }
 
-.portfolio-div-1-p2 {
-    font-size: 18px;
+.div-1-p3 {
+    right: 0%;
+    position: absolute;
+    height: 60px;
+    width: 25%;
+    display: inline-block;
+    background-color: rgb(102, 142, 25);
+    color: rgba(255, 255, 255, 0);
+}
+
+.div-1-p4 {
     color: white;
 }
 
-.div-1-submit {
+.submit-button {
+    margin: 10px 0px 100px 0px;
     border-radius: 8px;
     font-size: 20px;
     padding: 10px;
@@ -172,8 +191,7 @@
     2nd Div Started
 */
 
-.portfolio-div-2 {
-    border: 3px solid;
+.portfolio-div-2 {  
     text-align: center;
 }
 
@@ -227,13 +245,12 @@
 
 .portfolio-div-3 {
     background-image: url("images/ocean.jpg") ;
-    height: 540px;
+    height: 500px;
     border: 1px solid;
     text-align: center;
 }
 
 .portfolio-div-3-p1 {
-    border: 2px solid pink;
     display: inline-block;
     font-weight: bolder;
     font-size: 40px;
@@ -242,7 +259,7 @@
 .portfolio-div-3-p2 {
     margin: 30px 60px;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     text-align: left;
     width: 40%;
@@ -253,22 +270,93 @@
 */
 
 .portfolio-div-4 {
-    border: 1px solid blue;
     text-align: center;
 }
 
 .portfolio-div-4-p1 {
-    border: 2px solid pink;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 100%;
+}
+
+.portfolio-div-4-p2 {
+    color: grey;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portfolio-div-4a,
+.portfolio-div-4b,
+.portfolio-div-4c,
+.portfolio-div-4d {
+    height: 100%;
+    width: 250px;
+    padding: 50px 20px;
+    display: inline-block;
+    margin: 40px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.portfolio-div-4a-p2,
+.portfolio-div-4b-p2,
+.portfolio-div-4c-p2,
+.portfolio-div-4d-p2 {
+    color: grey;
+    font-size: 14px;
+}
+
+.portfolio-div-4a p a,
+.portfolio-div-4b p a,
+.portfolio-div-4c p a,
+.portfolio-div-4d p a {
+    color: rgb(102, 142, 25)
+}
+/*
+    div-5 started from here
+*/
+
+.portfolio-div-5 {
+    border: 1px solid red;
+    text-align: center;
+    background-color: rgb(25, 26, 24);
+}
+
+.portfolio-div-5-p1 {
+    color: white;
     display: inline-block;
     font-weight: bolder;
     font-size: 40px;
 }
 
-.portfolio-div-4-p2 {
+.portfolio-div-5-p2 {
 
     color: grey;
+    font-size: 14px;
 }
 
+.div5-1 {
 
+}
+
+.div5-1 p {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+.div5-2 p {
+    margin: 20px 40px 50px 40px;
+    display: inline-block;
+}
+
+.div5-2-images {
+    width: 230px;
+    height: 230px;
+}
+
+/*
+    div 6 started from here
+*/
 
 
