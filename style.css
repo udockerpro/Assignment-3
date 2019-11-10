@@ -1,22 +1,32 @@
 
     * {
         font-family: sans-serif;
-        font-size: 15px;
         margin: 0px;
         padding: 0px;
     }
 
+    body {
+        
+    }
+
 .div-page {
     display: inline-block;
-    width: 99%;
-    margin: 0px 0.40%;
+    width: 99.5%;
+    max-width: 1350px;
+    margin: 0px 5px;
+    border: 3px solid red;
+    left: 50% ;
+    top: 50%;
+}
 
-border: 3px solid red;
+
+
+.color-grey {
+    color: grey;
 }
 
 .header-top-div {
-    width: 99.7%;
-    min-width: 800px;
+    width: 100%;
     height: 50px;
     display: inline-block;
     background-color: rgb(36, 37, 35);
@@ -24,7 +34,7 @@ border: 3px solid red;
 
 .header-top-ul {
     line-height: 50px;
-    float: right;
+    float: right ;
     margin: 0px 40px 0px 0px;
     color: white;
     display: inline-block;
@@ -34,34 +44,32 @@ border: 3px solid red;
 }
 
 .header-top-ul li {
-    width: 180px;
+    width: ;
     line-height: 20px;
     display: inline-block;
-    margin: 0px 5px 0px 0px;
-    padding: 0px 0px;
+    padding: 5px;
+
 }
 
 .header-top-ul li:hover {
     font-weight: bold;
-    cursor: grabbing;
 }
 
 .header-top-ul li img {
     width: 19px;
-    height: 19px;
     background-color: white;
     color: white;
     vertical-align: middle;
 }
 
 .call-me {
-    background-color: rgb(143, 209, 56);
+    width: 130px;
+    background-color: rgb(103, 143, 61);
     font-size: 13px;
-    vertical-align: 2px;
     color: black;
     border-radius: 3px;
-    width: 130px;
-    padding: 20px;
+    vertical-align: ;
+    padding: ;
 }
 
 .header-icon {
@@ -74,16 +82,20 @@ border: 3px solid red;
 }
 
 .header-icon li {
-    width: 35px;
-    height: 35px;
+    margin: 8px 2px;
     line-height: 35px;
     border-radius: 50%;
-    background-color: rgb(52, 53, 52);
-    margin: 0px 5px;
+    background-color:;
     display: inline-block;
     text-align: center;
-    font-weight: bold;
     list-style: none;
+}
+
+.header-icon li img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0px;
 }
 
 
@@ -102,18 +114,18 @@ border: 3px solid red;
     list-style: none ;
     line-height: 80px;
     max-height: 80px;
-    margin: 0px 30px 0px 0px;
-    min-width: 800px;
+    margin: 0px 35px ;
 }
 
 .header-bottom-div ul li {
-    margin: 0px;
+    margin: 1px;
     text-align: center;
     display: inline-block;
-    width: 110px;
+    line-height: 50px;
+    padding: 10px;
 }
 
-.header-bottom-div ul li:hover {
+.header-bottom-div ul li a:hover {
     font-weight: bold;
 }
 
@@ -124,16 +136,227 @@ border: 3px solid red;
 
 /*header-closed*/
 
-.all-body-div {
-    border: 1px solid;
-    width: 100%;
-    height: 500px;
-}
 
 .portfolio-div-1 {
+    background-color: rgb(115, 143, 61);
+    text-align: center;
+    display: ;
+    position: relative;
+}
+
+.div-1-p1 {
+    position: absolute;
+    height: 60px;
+    width: 25%;
+    display: inline-block ;
+    background-color: rgb(102, 142, 25);
+    color: rgba(255, 255, 255, 0);
+    left: 0%;
+}
+
+.div-1-p2 {
+    line-height: 65px;
+    color: white;    
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 63px;
+    font-weight: bolder;
+}
+
+.div-1-p3 {
+    right: 0%;
+    position: absolute;
+    height: 60px;
+    width: 25%;
+    display: inline-block;
+    background-color: rgb(102, 142, 25);
+    color: rgba(255, 255, 255, 0);
+}
+
+.div-1-p4 {
+    color: white;
+}
+
+.submit-button {
+    margin: 10px 0px 100px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    width: 190px;
+    background-color: rgb(255, 189, 26);
+}
+
+/* 
+    2nd Div Started
+*/
+
+.portfolio-div-2 {  
     text-align: center;
 }
 
-h1 {
+.color {
+    color: black;
+}
+
+
+.text-rgb {
+    color: rgb(102, 142, 25);
+}
+.portfolio-div-2-p1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.portfolio-div-2-p2 {
+
+    color: grey;
+}
+
+.table-div2 {
+    align-content: center;
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px 0px;
+}
+
+.table-div2 tr td {
+}
+
+.bulb {
+    margin: 20px 0px;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+
+.div2-tr-last {
+    margin: 0px 0px;
+    font-size: 14px;
+    color: grey;
+} 
+
+/*
+    div-3 started from here
+*/
+
+.portfolio-div-3 {
+    background-image: url("images/ocean.jpg") ;
+    height: 500px;
+    border: 1px solid;
     text-align: center;
 }
+
+.portfolio-div-3-p1 {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.portfolio-div-3-p2 {
+    margin: 30px 60px;
+    float: left;
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+/* 
+    div 4 started from here
+*/
+
+.portfolio-div-4 {
+    text-align: center;
+}
+
+.portfolio-div-4-p1 {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+    width: 100%;
+}
+
+.portfolio-div-4-p2 {
+    color: grey;
+    font-size: 14px;
+    width: 100%;
+}
+
+.portfolio-div-4a,
+.portfolio-div-4b,
+.portfolio-div-4c,
+.portfolio-div-4d {
+    height: 100%;
+    width: 250px;
+    padding: 50px 20px;
+    display: inline-block;
+    margin: 40px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.portfolio-div-4a-p2,
+.portfolio-div-4b-p2,
+.portfolio-div-4c-p2,
+.portfolio-div-4d-p2 {
+    color: grey;
+    font-size: 14px;
+}
+
+.portfolio-div-4a p a,
+.portfolio-div-4b p a,
+.portfolio-div-4c p a,
+.portfolio-div-4d p a {
+    color: rgb(102, 142, 25)
+}
+/*
+    div-5 started from here
+*/
+
+.portfolio-div-5 {
+    border: 1px solid red;
+    text-align: center;
+    background-color: rgb(25, 26, 24);
+}
+
+.portfolio-div-5-p1 {
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.portfolio-div-5-p2 {
+
+    color: grey;
+    font-size: 14px;
+}
+
+.div5-1 {
+
+}
+
+.div5-1 p {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+.div5-2 p {
+    margin: 20px 40px 50px 40px;
+    display: inline-block;
+}
+
+.div5-2-images {
+    width: 230px;
+    height: 230px;
+}
+
+/*
+    div 6 started from here
+*/
+
+
