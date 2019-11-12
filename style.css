@@ -68,8 +68,6 @@
     font-size: 13px;
     color: black;
     border-radius: 3px;
-    vertical-align: ;
-    padding: ;
 }
 
 .header-icon {
@@ -142,6 +140,7 @@
     text-align: center;
     display: ;
     position: relative;
+    min-height: 450px;
 }
 
 .div-1-p1 {
@@ -179,7 +178,7 @@
 }
 
 .submit-button {
-    margin: 10px 0px 100px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 8px;
     font-size: 20px;
     padding: 10px;
@@ -295,7 +294,7 @@
     padding: 50px 20px;
     display: inline-block;
     margin: 40px 10px;
-    background-color: rgb(231, 231, 231);
+
 }
 
 .portfolio-div-4a-p2,
@@ -312,6 +311,26 @@
 .portfolio-div-4d p a {
     color: rgb(102, 142, 25)
 }
+
+.star-flat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.d4-fieldset {
+    background-color: lightgray;
+    border: lightgray;
+    padding: 10px 10px 30px 10px;
+}
+
+.d4-legend {
+
+    text-align: center;
+    margin: 0px 39%;
+}
+
 /*
     div-5 started from here
 */
@@ -359,4 +378,247 @@
     div 6 started from here
 */
 
+.portfolio-div-6 {
+    text-align: center;
+    padding: 10px;
+}
 
+.portfolio-div-6-p1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.portfolio-div-6-p2 {
+    color: gray;
+}
+
+.d6-hr {
+    display: inline-block;
+    margin: 40px 0px 0px 0px;
+    position: relative;
+
+}
+
+.d6-hr hr {
+    position: relative;
+    color: gray;
+    background-color: gray;
+    z-index: 10;
+    bottom: 205px;
+    left: 60px;
+    height: 2px;
+    border: 1px solid;
+    width: 90%;
+}
+
+.div-6a,
+.div-6b,
+.div-6c,
+.div-6d,
+.div-6e,
+.div-6f {
+
+    display: inline-block;
+    text-align: center;
+    margin: ;
+    width: ;
+    padding: 10px;
+    position: relative;
+    z-index: 11;
+}
+
+.div-6a-fieldset,
+.div-6b-fieldset,
+.div-6c-fieldset,
+.div-6d-fieldset,
+.div-6e-fieldset,
+.div-6f-fieldset {
+    position: relative;
+    z-index: 11;
+    display: inline-block;
+    margin: 10px 5px 50px 5px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 4px solid gray;
+    background-color: white;
+}
+
+.div-6a-fieldset legend,
+.div-6b-fieldset legend,
+.div-6c-fieldset legend,
+.div-6d-fieldset legend,
+.div-6e-fieldset legend,
+.div-6f-fieldset legend {
+    background-color: rgb(253, 255, 133);
+    position: relative;
+    left: 0%;
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.div-6a-img,
+.div-6b-img,
+.div-6c-img,
+.div-6d-img,
+.div-6e-img,
+.div-6f-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 9px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.d6-legend-big {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+*/
+
+
+
+/*
+    .portfolio-div-7 started from here
+*/
+
+.portfolio-div-7 {
+    text-align: center;
+    background-color: lightgray;
+    border: 1px solid;
+}
+
+.portfolio-div-7-p1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.portfolio-div-7-p2 {
+    color: gray;
+}
+
+.d7-cont-a,
+.d7-cont-b,
+.d7-cont-c,
+.d7-cont-d {
+    text-align: left;
+    display: inline-block;
+    width: 40;
+    padding: 40px;
+}
+
+
+.d7-cont-a1,
+.d7-cont-b1,
+.d7-cont-c1,
+.d7-cont-d1 {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.d7-p-a1,
+.d7-p-b1,
+.d7-p-c1,
+.d7-p-d1 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 0px;
+    min-width: 520px;
+}
+
+.d7-p-a2,
+.d7-p-b2,
+.d7-p-c2,
+.d7-p-d2 {
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 16px;
+}
+
+.d7-cont-a img,
+.d7-cont-b img,
+.d7-cont-c img,
+.d7-cont-d img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0px 20px;
+    float: left;
+    background-color: white;
+}
+
+.d7-horizontal {
+    width: 800px;
+    border: 1px solid red;
+
+
+}
+
+.d7-vertical {
+    border: 1px solid;
+    width: 5px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    left: 50%;
+    top: 50%;
+
+}
+
+
+
+
+/*
+    portfolio-div-8 started from here
+*/
+
+.portfolio-div-8 {
+    text-align: center;
+}
+
+.portfolio-div-8-p1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.portfolio-div-8-p2 {
+    color: gray;
+}
+
+/*
+    portfolio-div-9 started from here
+*/
+
+
+/*
+    portfolio-div-10 started from here
+*/
+
+.portfolio-div-10 {
+    text-align: center;
+}
+
+.portfolio-div-10-p1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.portfolio-div-10-p2 {
+    color: gray;
+}
