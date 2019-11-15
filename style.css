@@ -13,9 +13,7 @@
     display: inline-block;
     width: 99.5%;
     max-width: 1350px;
-    margin: 0px 5px;
-    left: 50% ;
-    top: 50%;
+    border: 1px solid lightgray;
 }
 
 
@@ -55,15 +53,16 @@
 }
 
 .header-top-ul li img {
-    width: 19px;
-    background-color: white;
-    color: white;
+    width: 20px;
     vertical-align: middle;
+    margin: 0px 15px;
+    float: left;
+
 }
 
 .call-me {
     width: 130px;
-    background-color: rgb(103, 143, 61);
+    background-color: rgb(125, 170, 42);
     font-size: 13px;
     color: black;
     border-radius: 3px;
@@ -73,7 +72,6 @@
     margin: 0px 0px 0px 30px;
     display: inline-block;
     list-style: none;
-    color: white;
     float: left;
     line-height: 50px;
 }
@@ -122,9 +120,23 @@
     padding: 10px;
 }
 
-.header-bottom-div ul li a:hover {
-    font-weight: bold;
+.header-bottom-div ul li a {
+    text-decoration: none;
+    color: black;
 }
+
+
+.header-bottom-div ul li:hover {
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+}
+
+.header-bottom-div ul li:active {
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+}
+
+
 
 .logo-panacloud {
     height: 80px;
@@ -135,19 +147,30 @@
 
 
 .portfolio-div-1 {
-    background-color: rgb(115, 143, 61);
+    background-color: rgb(101, 142, 25);
     text-align: center;
-    display: ;
     position: relative;
     min-height: 450px;
 }
 
+.d1-back-image {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    size: 50%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 .div-1-p1 {
     position: absolute;
+    z-index: 2;
     height: 60px;
-    width: 25%;
+    width: 27%;
     display: inline-block ;
-    background-color: rgb(102, 142, 25);
+    background-color: rgb(125, 170, 42);
     color: rgba(255, 255, 255, 0);
     left: 0%;
 }
@@ -160,20 +183,28 @@
     text-align: center;
     font-size: 63px;
     font-weight: bolder;
+    position: relative;
+    z-index: 3;
 }
 
 .div-1-p3 {
     right: 0%;
     position: absolute;
     height: 60px;
-    width: 25%;
+    width: 27%;
     display: inline-block;
-    background-color: rgb(102, 142, 25);
+    background-color: rgb(125, 170, 42);
     color: rgba(255, 255, 255, 0);
+    z-index: 2;
 }
 
 .div-1-p4 {
+    margin: 22px;
+    display: inline-block;
     color: white;
+    font-size: 22px;
+    position: relative;
+    z-index: 2;
 }
 
 .submit-button {
@@ -183,6 +214,16 @@
     padding: 10px;
     width: 190px;
     background-color: rgb(255, 189, 26);
+    position: relative;
+    z-index: 2;
+}
+
+.d1-form input {
+    width: 20px;
+}
+
+.d1-form input:hover {
+    font: bold;
 }
 
 /* 
@@ -222,7 +263,7 @@
 }
 
 .bulb {
-    margin: 20px 0px;
+    margin: 0px 0px;
     width: 90px;
     height: 90px;
     padding: 20px;
@@ -242,9 +283,8 @@
 */
 
 .portfolio-div-3 {
-    background-image: url("images/ocean.jpg") ;
+    background:linear-gradient(to right,rgb(125, 170, 42)30%, white  100%);
     height: 500px;
-    border: 1px solid;
     text-align: center;
 }
 
@@ -261,6 +301,11 @@
     display: inline-block;
     text-align: left;
     width: 40%;
+}
+
+.d3-right-img {
+    display: ;
+    width: 450px;
 }
 
 /* 
@@ -292,7 +337,7 @@
     width: 250px;
     padding: 50px 20px;
     display: inline-block;
-    margin: 40px 10px;
+    margin: 20px 10px;
 
 }
 
@@ -314,7 +359,6 @@
 .star-flat {
     width: 50px;
     height: 50px;
-    border: 1px solid;
     border-radius: 50%;
 }
 
@@ -335,7 +379,6 @@
 */
 
 .portfolio-div-5 {
-    border: 1px solid red;
     text-align: center;
     background-color: rgb(25, 26, 24);
 }
@@ -379,7 +422,6 @@
 
 .portfolio-div-6 {
     text-align: center;
-    padding: 10px;
 }
 
 .portfolio-div-6-p1 {
@@ -393,17 +435,16 @@
 
 .d6-hr {
     display: inline-block;
-    margin: 40px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     position: relative;
 
 }
 
 .d6-hr hr {
     position: relative;
-    color: gray;
-    background-color: gray;
+    color: rgb(195, 195, 195);
     z-index: 10;
-    bottom: 180px;
+    bottom: 190px;
     left: 60px;
     height: 0px;
     border: 1px solid;
@@ -419,8 +460,6 @@
 
     display: inline-block;
     text-align: center;
-    margin: ;
-    width: ;
     padding: 10px;
     position: relative;
     z-index: 11;
@@ -435,12 +474,12 @@
     position: relative;
     z-index: 11;
     display: inline-block;
-    margin: 10px 5px 30px 5px;
-    width: 100px;
-    height: 105px;
+    margin: 0px 10px 30px 10px;
+    width: 115px;
+    height: 130px;
     padding: 20px;
     border-radius: 50%;
-    border: 2px solid gray;
+    border: 2px solid rgb(195, 195, 195);
     background-color: white;
 }
 
@@ -450,12 +489,16 @@
 .div-6d-fieldset legend,
 .div-6e-fieldset legend,
 .div-6f-fieldset legend {
-    background-color: rgb(253, 255, 133);
+    background-color: rgb(59, 58, 56);
+    color: white;
     position: relative;
     left: 0%;
-    font-weight: bold;
     border-radius: 50%;
     font-size: 25px;
+    width: 40px;
+    height: 35px;
+    margin: 5px 0px 0px 0px;
+    display: inline-block;
 }
 
 .div-6a-img,
@@ -465,13 +508,14 @@
 .div-6e-img,
 .div-6f-img {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 9px;
+    width: 70px;
+    height: 70px;
+    margin: 2px 0px 0px 0px;
 }
 
 .d6-last-p {
     color: gray;
+    font-size: 14px;
 }
 
 
@@ -516,8 +560,8 @@
 .d7-cont-a {
     text-align: left;
     display: inline-block;
-    width: 40;
-    padding: 40px;
+    width: 35;
+    padding: 0px 40px;
     border-bottom: 1px solid gray;
     position: relative;
     left: 10px;
@@ -526,8 +570,8 @@
 .d7-cont-b {
     text-align: left;
     display: inline-block;
-    width: 40;
-    padding: 40px;
+    width: 35;
+    padding: 0px 40px;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
 
@@ -537,7 +581,7 @@
     text-align: left;
     display: inline-block;
     width: 40;
-    padding: 40px;
+    padding: 0px 40px;
     position: relative;
     left: 10px;
 }
@@ -546,7 +590,7 @@
     text-align: left;
     display: inline-block;
     width: 40;
-    padding: 40px;
+    padding: 0px 40px;
     border-left: 1px solid gray;
 
 }
@@ -568,7 +612,7 @@
     display: inline-block;
     font-size: 14px;
     padding: 10px 0px;
-    min-width: 520px;
+    min-width: 550px;
 }
 
 .d7-p-a2,
@@ -578,7 +622,7 @@
     text-align: left;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 16px;
+    margin: 25px 16px 10px 0px;
 }
 
 .d7-cont-a img,
@@ -589,7 +633,7 @@
     height: 80px;
     border-radius: 50%;
     padding: 20px;
-    margin: 0px 20px;
+    margin: 10px 20px;
     float: left;
     background-color: white;
 }
@@ -601,6 +645,7 @@
 
 }
 
+/*
 .d7-vertical {
     border: 1px solid;
     width: 5px;
@@ -610,7 +655,7 @@
     left: 50%;
     top: 50%;
 
-}
+}*/
 
 
 
@@ -632,56 +677,271 @@
     color: gray;
 }
 
+.d8-container {
+}
+
+
+
+
+/*
+    FIRST DIAGRAM
+*/
 
 .d8-a {
+    display: inline-block;
+    position: relative;
+    margin: 40px 20px;
+
+}
+
+.d8-a-div {
+}
+
+.d8-a-div-p {
+    border: 3px solid rgb(173, 113, 0);
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 65px 60px 65px 65px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 2;
+    margin: 13px 23px 13px 19px;
+
+}
+
+.d8-a-div-p2 {
+    background:conic-gradient(rgba(255, 0, 0, 0) 54%, orange 54%);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 81px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 0px 0px 0px 2px;
+}
+
+.d8-a-div-p3 {
+    background-color: white;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 30px;
+    color: orange;
+    font-weight: bold;
+}
+
+.d8-a-div-p4 {
+    color: rgba(255, 0, 0, 0);
+    display: inline-block;
+    border: 1px solid;
+    margin: 20px;
+
+}
+.d8-b-div-p4,
+.d8-c-div-p4,
+.d8-d-div-p4 {
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px;
 
 }
 
 /*
-.d8-a1 {
-    
-    border: 30px solid rgba(255, 166, 0, 0.657);
-    border-top-color: rgba(102, 51, 153, 0);
-    border-radius: 50% ;
-    display: block;
-    position: relative;
-    z-index: 10;
-}
+    SECOND DIAGRAM
 */
 
-.d8-a1-p {
-    border: 3px solid orangered;
+.d8-b {
     display: inline-block;
-    font-size: 40px;
-    border-radius: 50%;
-    padding: 70px;
-    height: 80px;
-    width: 80px;
     position: relative;
+    margin: 40px 20px;
 
 }
 
-.d8-a1-p2 {
-    border: 30px solid orange ;
-    background:conic-gradient(red 40%, green 0%);
-    padding: 30px;
-    
-    /*border-top-color: rgba(128, 128, 128, 0);
-    border-right-color: rgba(128, 128, 128, 0); */
+.d8-b-div {
+}
+
+.d8-b-div-p {
+    border: 3px solid rgb(163, 33, 33);
+    background-color: rgba(255, 255, 255, 0);
     display: inline-block;
     font-size: 40px;
     border-radius: 50%;
-    padding: 55px;
-    height: 80px;
-    width: 80px;
+    padding: 65px 60px 65px 65px;
+    height: 50px;
+    width: 50px;
     position: relative;
-    bottom: 237px;
+    z-index: 2;
+    margin: 13px 23px 13px 19px;
+
 }
 
+.d8-b-div-p2 {
+    background:conic-gradient(rgba(94, 255, 0, 0) 38%, rgb(219, 65, 65) 38%);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 81px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 0px 0px 0px 2px;
+}
 
+.d8-b-div-p3 {
+    background-color: white;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 30px;
+    color: rgb(219, 65, 65);
+    font-weight: bold;
+}
 
+/*
+    THIRD DIAGRAM
+*/
 
+.d8-c {
+    display: inline-block;
+    position: relative;
+    margin: 40px 20px;
 
+}
+
+.d8-c-div {
+}
+
+.d8-c-div-p {
+    border: 3px solid rgb(84, 114, 28);
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 65px 60px 65px 65px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 2;
+    margin: 13px 23px 13px 19px;
+
+}
+
+.d8-c-div-p2 {
+    background:conic-gradient(rgba(255, 0, 0, 0) 25%, rgb(125, 170, 42) 25%);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 81px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 0px 0px 0px 2px;
+}
+
+.d8-c-div-p3 {
+    background-color: white;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 30px;
+    color: rgb(125, 170, 42);
+    font-weight: bold;
+}
+
+/*
+    FOURTH DIAGRAM
+*/
+
+.d8-d {
+    display: inline-block;
+    position: relative;
+    margin: 40px 20px;
+
+}
+
+.d8-d-div {
+}
+
+.d8-d-div-p {
+    border: 3px solid rgb(42, 41, 38);
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 65px 60px 65px 65px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 2;
+    margin: 13px 23px 13px 19px;
+
+}
+
+.d8-d-div-p2 {
+    background:conic-gradient(rgba(255, 0, 0, 0) 12%, rgb(54, 52, 48) 12%);
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 81px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 0px 0px 0px 2px;
+}
+
+.d8-d-div-p3 {
+    background-color: white;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0%;
+    margin: 30px;
+    color: rgb(54, 52, 48);
+    font-weight: bold;
+}
 
 
 
@@ -690,8 +950,8 @@
 */
 
 .portfolio-div-9 {
-    border: 1px solid red;
-    background-color: rgb(118, 194, 42);
+    border: 1px solid rgb(101, 142, 25);
+    background-color: rgb(102, 142, 25);
     text-align: center;
 }
 
@@ -713,6 +973,8 @@
     border: 1px solid green;
     border-radius: 10px;
     width: 220px;
+    font-size: 18px;
+    text-align: center;
 }
 .d9-input-email {
     margin: 50px 20px 20px 0px;
@@ -720,6 +982,8 @@
     border: 1px solid green;
     border-radius: 10px; 
     width: 220px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .d9-input-number {
@@ -728,6 +992,8 @@
     border: 1px solid green;
     border-radius: 10px;
     width: 220px;
+    font-size: 18px;
+    text-align: center;
 
 }
 
@@ -769,18 +1035,40 @@
 
 .d10-cont2 {
     font-size: 22px;
-
 }
+
+
 
 .d10-cont2-p1 {
-
+    display: inline-block;
+    line-height: 35px;
+    margin: 10px;
 }
+
 
 .d10-cont2-p2,
 .d10-cont2-p3,
 .d10-cont2-p4 {
     display: inline-block;
-    
+    position: relative;
+    margin: 0px 20px;
+}
+
+.d10-phone-icon {
+    width: 22px;
+    display: inline-block;
+    position: relative;
+    bottom: 0%;
+    margin: 2px 10px;
+    float: left;
+}
+.d10-location-icon {
+    width: 20px;
+    height: 30px;
+    position: relative;
+    bottom: 0%;
+    margin: 0px 20px;
+    float: left;
 }
 
 .d10-map {
@@ -794,7 +1082,6 @@
 */
 
 .foot {
-    border: 1px solid ;
     padding: 50px 20px;
     text-align: center;
     background-color: rgb(102, 142, 25);
@@ -855,7 +1142,8 @@
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    margin: 66px 0px 0px 0px;
+    margin: 67px 0px 0px 0px;
+    letter-spacing: 0.3mm;
 }
 
 
@@ -863,4 +1151,10 @@
     width: 26px;
     height: 26px;
     margin: 0px 4px 0px 0px;
+}
+
+.footer-phone-icon {
+    width: 22px;
+    margin: 0px 20px 5px 0px;
+    float: left;
 }
