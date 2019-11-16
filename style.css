@@ -208,6 +208,7 @@
 }
 
 .submit-button {
+    border-bottom: 3px solid rgba(255, 35, 35, 0.397);
     margin: 10px 0px 10px 0px;
     border-radius: 8px;
     font-size: 20px;
@@ -216,6 +217,11 @@
     background-color: rgb(255, 189, 26);
     position: relative;
     z-index: 2;
+}
+
+.submit-button:hover {
+    background-color: rgb(255, 223, 41);
+    color: maroon;   
 }
 
 .d1-form input {
@@ -267,8 +273,9 @@
     width: 90px;
     height: 90px;
     padding: 20px;
-    border: 2px solid;
+    border-bottom: 2px solid gray;
     border-radius: 50%;
+    background-color: rgb(238, 237, 237);
 }
 
 
@@ -360,10 +367,11 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border-bottom: 2px solid gray;
 }
 
 .d4-fieldset {
-    background-color: lightgray;
+    background-color: rgb(231, 227, 227);
     border: lightgray;
     padding: 10px 10px 30px 10px;
 }
@@ -408,13 +416,14 @@
 
 .div5-2 p {
     margin: 20px 40px 50px 40px;
-    display: inline-block;
+    display: block;
 }
 
 .div5-2-images {
     width: 230px;
     height: 230px;
 }
+
 
 /*
     div 6 started from here
@@ -475,7 +484,7 @@
     z-index: 11;
     display: inline-block;
     margin: 0px 10px 30px 10px;
-    width: 115px;
+    width: 120px;
     height: 130px;
     padding: 20px;
     border-radius: 50%;
@@ -483,7 +492,7 @@
     background-color: white;
 }
 
-.div-6a-fieldset legend,
+/*.div-6a-fieldset legend,
 .div-6b-fieldset legend,
 .div-6c-fieldset legend,
 .div-6d-fieldset legend,
@@ -499,6 +508,16 @@
     height: 35px;
     margin: 5px 0px 0px 0px;
     display: inline-block;
+} */
+
+.div-6a-fieldset legend img,
+.div-6b-fieldset legend img,
+.div-6c-fieldset legend img,
+.div-6d-fieldset legend img,
+.div-6e-fieldset legend img,
+.div-6f-fieldset legend img {
+    width: 40px;
+    height: 40px;
 }
 
 .div-6a-img,
@@ -510,7 +529,7 @@
     display: inline-block;
     width: 70px;
     height: 70px;
-    margin: 2px 0px 0px 0px;
+    margin: 17px 0px 0px 0px;
 }
 
 .d6-last-p {
@@ -732,14 +751,14 @@
     display: inline-block;
     font-size: 40px;
     border-radius: 50%;
-    padding: 50px;
+    padding: 50px 55px 50px 45px;
     height: 50px;
     width: 50px;
     position: absolute;
     z-index: 3;
     top: 0px;
     left: 0%;
-    margin: 30px;
+    margin:  32px;
     color: orange;
     font-weight: bold;
 }
@@ -809,14 +828,14 @@
     display: inline-block;
     font-size: 40px;
     border-radius: 50%;
-    padding: 50px;
+    padding: 50px 55px 50px 45px;
     height: 50px;
     width: 50px;
     position: absolute;
     z-index: 3;
     top: 0px;
     left: 0%;
-    margin: 30px;
+    margin:  32px;
     color: rgb(219, 65, 65);
     font-weight: bold;
 }
@@ -870,14 +889,14 @@
     display: inline-block;
     font-size: 40px;
     border-radius: 50%;
-    padding: 50px;
+    padding: 50px 55px 50px 45px;
     height: 50px;
     width: 50px;
     position: absolute;
     z-index: 3;
     top: 0px;
     left: 0%;
-    margin: 30px;
+    margin:  32px ;
     color: rgb(125, 170, 42);
     font-weight: bold;
 }
@@ -893,8 +912,6 @@
 
 }
 
-.d8-d-div {
-}
 
 .d8-d-div-p {
     border: 3px solid rgb(42, 41, 38);
@@ -908,7 +925,6 @@
     position: relative;
     z-index: 2;
     margin: 13px 23px 13px 19px;
-
 }
 
 .d8-d-div-p2 {
@@ -931,14 +947,14 @@
     display: inline-block;
     font-size: 40px;
     border-radius: 50%;
-    padding: 50px;
+    padding: 50px 55px 50px 45px;
     height: 50px;
     width: 50px;
     position: absolute;
     z-index: 3;
     top: 0px;
     left: 0%;
-    margin: 30px;
+    margin: 32px;
     color: rgb(54, 52, 48);
     font-weight: bold;
 }
@@ -998,6 +1014,7 @@
 }
 
 .d9-submit-button {
+    border-bottom: 3px solid rgba(255, 35, 35, 0.397);
     margin: 10px 0px 10px 0px;
     border-radius: 8px;
     font-size: 20px;
@@ -1006,6 +1023,11 @@
     background-color: rgb(255, 189, 26);
     color: black;
 }
+
+.d9-submit-button:hover {
+    background-color: rgb(255, 223, 41);
+    color: maroon;  
+} 
 
 
 .d9-last-p {
@@ -1142,7 +1164,7 @@
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    margin: 67px 0px 0px 0px;
+    margin: 63px 0px 0px 0px;
     letter-spacing: 0.3mm;
 }
 
